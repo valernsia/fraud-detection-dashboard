@@ -46,7 +46,7 @@ Since fraudulent transactions are rare, class weighting was used to improve frau
 1. Clone the repository
 
 ```bash
-git clone <your-github-link>
+git clone https://github.com/valernsia/fraud-detection-dashboard.git
 ```
 
 2. Install dependencies
@@ -60,3 +60,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app/app.py
 ```
+
+## Dataset
+
+This project uses the Credit Card Fraud Detection dataset from Kaggle. Due to GitHub file size limitations, the original dataset is not included in this repository.
+
+Dataset link:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
